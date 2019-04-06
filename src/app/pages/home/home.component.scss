@@ -1,0 +1,38 @@
+.main {
+    background-color: #23212c;
+    height: 65vh;
+    padding-top: 35vh;
+
+    &-text {
+        margin: 0 auto;
+        width: 400px;
+        max-width: 100%;
+
+        &-outer {
+            color: white;
+            font-size: 25px;
+            padding: 0 30px;
+        }
+
+        &-inner {
+            display: block;
+            color: #d4cfb8;
+            padding: 10px 0 10px 50px;
+            font-size: 20px;
+        }
+
+        &-button {
+            display: block;
+            text-decoration: none;
+            border: 2px solid #d4cfb8;
+            color: #d4cfb8;
+            text-align: center;
+            margin-top: 20px;
+
+            &:hover {
+                border-color:#7f684a;
+                color: #7f684a;
+            }
+        }
+    }
+}
