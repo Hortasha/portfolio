@@ -9,14 +9,14 @@
         max-width: 100%;
 
         &-outer {
-            color: white;
+            color: rgb(186, 198, 253);
             font-size: 25px;
             padding: 0 30px;
         }
 
         &-inner {
             display: block;
-            color: #d4cfb8;
+            color: white;
             padding: 10px 0 10px 50px;
             font-size: 20px;
         }
@@ -30,9 +30,13 @@
             margin-top: 20px;
 
             &:hover {
-                border-color:#7f684a;
-                color: #7f684a;
+                border-color:rgb(186, 198, 253);
+                color: rgb(186, 198, 253);
             }
         }
     }
 }
+
+//#23212c
+//#7f684a
+//
