@@ -1,0 +1,57 @@
+.project {
+    display: inline-block;
+    width: 450px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    vertical-align: top;
+    max-width: 100%;
+
+    &-img {
+        width: 450px;
+        height: 450px;
+        max-width: 100%;
+        margin-bottom: 5px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;
+        background-size: cover;
+
+        &:hover {
+            background-image: none !important;
+            cursor: pointer;
+        }
+    }
+
+    h1 {
+        color: rgb(186, 198, 253);
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+
+    a {
+        text-decoration: none;
+        display: inline-block;
+        width: 220px;
+        box-sizing: border-box;
+        border: solid 2px white;
+        color: white;
+        text-align: center;
+
+        &:hover {
+            border-color:rgb(186, 198, 253);
+            color: rgb(186, 198, 253);
+        }
+    }
+
+    span {
+        width: 10px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .project {
+        display: block;
+        margin: 0 auto;
+    }
+}
