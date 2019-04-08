@@ -1,0 +1,19 @@
+.contact {
+    background-color: #23212c;
+    color: white;
+    min-height: 90vh;
+    padding-bottom: 10vh;
+
+    &-title {
+        text-align: center;
+    }
+
+    &-row {
+        margin: 0 auto;
+        width: 1000px;
+        max-width: 96%;
+        padding-top: 50px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
