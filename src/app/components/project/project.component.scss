@@ -1,37 +1,68 @@
 .project {
     display: inline-block;
-    width: 450px;
-    padding-right: 50px;
+    width: 470px;
     padding-bottom: 50px;
     vertical-align: top;
-    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
 
     &-img {
-        width: 450px;
-        height: 450px;
-        max-width: 100%;
+        width: 100%;
+        height: 250px;
         margin-bottom: 5px;
         background-repeat: no-repeat;
         background-position: center;
-        background-color: black;
+        background-color: white;
         background-size: cover;
+        cursor: pointer;
+
+        & p {
+            color: rgba(0, 0, 0, 0);
+        }
+
+        & span {
+            color: rgba(0, 0, 0, 0);
+        }
 
         &:hover {
             background-image: none !important;
-            cursor: pointer;
+            opacity: 0.5;
+            transition: opacity 0.7s;
+            
+
+            & p {
+                color: black;
+                transition: color 0.7s;
+                text-align: center;
+                background-color: rgb(186, 198, 253);
+                display: inline-block;
+                width: 100px;
+                margin: 0 auto;
+                padding: 5px;
+                margin-bottom: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            & span {
+                color: black;
+                width: 100%;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
         }
     }
 
-    h1 {
+    & h1 {
         color: rgb(186, 198, 253);
         padding-bottom: 20px;
         font-size: 24px;
     }
 
-    a {
+    & a {
         text-decoration: none;
         display: inline-block;
-        width: 220px;
+        width: 230px;
         box-sizing: border-box;
         border: solid 2px white;
         color: white;
@@ -43,7 +74,7 @@
         }
     }
 
-    span {
+    & span {
         width: 10px;
         display: inline-block;
     }
@@ -53,5 +84,21 @@
     .project {
         display: block;
         margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .project {
+        width: 96%;
+        padding-left: 2%;
+        padding-right: 2%;
+
+        & a {
+            width: 49%;
+        }
+
+        & span {
+            width: 2%;
+        }
     }
 }

@@ -1,9 +1,12 @@
 <div class="project">
   <h1>{{project.title}}</h1>
   <div class="project-img" [ngStyle]="{'background-image' : backgroundStart + project.name + backgroundEnd}">
+    <br>
     <p *ngFor="let tool of project.tools">
       {{tool}}
     </p>
+    <br>
+    <span>{{project.text}}</span>
   </div>
   <a href="{{project.github}}">Github</a>
   <span></span>
