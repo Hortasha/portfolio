@@ -4,7 +4,12 @@
     </div>
     <div class="contact-row">
       <img [src]="project.img" alt="{{project.name}}">
-      <p>{{project.text}}</p>
+      <p>Tools: <b>{{project.tools.join(", ")}}</b></p>
+      <br>
+      <div [innerHTML]="project.text"></div>
+
+      <a href="{{project.github}}">Github</a>
+      <a href="{{project.host}}">Website</a>
     </div>
   </div>
 <app-nav></app-nav>

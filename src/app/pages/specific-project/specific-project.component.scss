@@ -21,4 +21,22 @@
         max-width: 100%;
         padding-bottom: 20px;
     }
+
+    & a {
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 20px;
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        border: solid 2px white;
+        color: white;
+        text-align: center;
+
+
+        &:hover {
+            border-color:rgb(186, 198, 253);
+            color: rgb(186, 198, 253);
+        }
+    }
 }
