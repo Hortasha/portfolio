@@ -1,8 +1,9 @@
 .work {
     background-color: #23212c;
     color: white;
-    min-height: 98vh;
-    padding-bottom: 2vh;
+    min-height: 90vh;
+    padding-bottom: 10vh;
+    overflow-wrap: break-word;
 
     &-title {
         text-align: center;
@@ -16,16 +17,11 @@
         padding-right: 5%;
         padding-top: 50px;
     }
+}
 
-    &-space {
-        width: 4%;
-        display: inline-block;
-    }
-
-    &-col {
-        width: 46%;
-        display: inline-block;
-        vertical-align: top;
-        padding-left: 2%;
+@media only screen and (max-width: 1000px) {
+    .project {
+        display: block;
+        margin: 0 auto;
     }
 }
