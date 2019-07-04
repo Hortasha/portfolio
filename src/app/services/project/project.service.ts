@@ -46,10 +46,13 @@ export class ProjectService {
         </ul>
       </ul>
       <br>
-      <p>We were free to use whatever framework we prefered. And i did choose to do this assignment with angular.</p>
+      <p>We were free to use whatever framework we prefered. And i did choose to do this assignment with angular.</p><br>
+      <p>Logging into the website you need login:</p><br>
+      <p>Username: abc</p>
+      <p>Password: 123</p>
       `,
       github: 'https://github.com/Hortasha/Noroff-FinalCA',
-      host: '//magic.eidesite.com'
+      host: 'http://magic.eidesite.com'
     },
 
     {
@@ -78,7 +81,7 @@ export class ProjectService {
       </ul>
       `,
       github: 'https://github.com/Hortasha/react-course',
-      host: '//course.eidesite.com'
+      host: 'http://course.eidesite.com'
     },
 
     {
@@ -100,7 +103,27 @@ export class ProjectService {
       </p>
       `,
       github: 'https://github.com/Hortasha/SemesterOppgaveHost2018',
-      host: '//thrones.eidesite.com'
+      host: 'http://thrones.eidesite.com'
+    },
+
+    {
+      id: 3,
+      name: "holidaze",
+      title: "Holidaze Project",
+      tools: ['express', 'angular', 'node', 'mongodb', 'bcrypt', 'jsonwebtoken'],
+      img: './../../../assets/holidaze.jpg',
+      text: `
+      <br>
+      <p>
+        This was a exam project where you should be able to provide hotel options for consumers or rent hotels.
+        <br><br>
+        On this website you can register a user or hotel that will have access to different functinality on the website. Data is stored in mongodb and passwords are being encrypted.
+        <br><br>
+        This is the first project where i have created user registration, login and used endpoints to communicate with server.
+      </p>
+      `,
+      github: 'https://github.com/Hortasha/Holidaze',
+      host: 'http://holidaze.eidesite.com/'
     }
   ]
 
